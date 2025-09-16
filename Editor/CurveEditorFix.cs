@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+// Script Designed by BluWizard LABS. https://bluwizard.net
+
 namespace BluUtilities.CurveEditorSizer
 {
     [FilePath("ProjectSettings/BluUtilities.CurveEditorSizer.asset", FilePathAttribute.Location.ProjectFolder)]
     public class CurveEditorSizerSettings : ScriptableSingleton<CurveEditorSizerSettings>
     {
         [SerializeField] private bool _enabled = true;
-        [SerializeField] private int _targetWidth = 900;
+        [SerializeField] private int _targetWidth = 600;
         [SerializeField] private int _targetHeight = 600;
         [SerializeField] private bool _lockMinMax = false;
         [SerializeField] private bool _onlyUndocked = true;
@@ -92,7 +94,7 @@ namespace BluUtilities.CurveEditorSizer
                 if (GUILayout.Button("Reset To Defaults"))
                 {
                     CurveEditorSizerSettings.Enabled = true;
-                    CurveEditorSizerSettings.TargetWidth = 900;
+                    CurveEditorSizerSettings.TargetWidth = 600;
                     CurveEditorSizerSettings.TargetHeight = 600;
                     CurveEditorSizerSettings.LockMinMax = false;
                     CurveEditorSizerSettings.OnlyUndocked = true;

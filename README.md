@@ -6,6 +6,7 @@ This repository contains some fixes to some strange behaviours in Unity. It's no
 
 ## Current Features:
 - Curve Editor Fix: Fixes an annoying issue when opening the Curve editor that causes it to be sized obsurdly too large.
+- Find Emission Animations: Created to help a friend find Animation Clips that are interfering with their Emission properties on Poiyomi materials when they were not supposed to (even though they weren't tagged!)
 
 ## License:
 [MIT License](LICENSE.md)
