@@ -9,6 +9,8 @@ using System.Linq;
 // This funny script is a sanity check that checks your project for animation files that is causing the following VRChat bug:
 // https://feedback.vrchat.com/avatar-30/p/fallback-shader-type-hidden-becomes-visible-when-animated-material-alpha-changes
 // The result of the scan will be printed into the Console. Make sure to enable "Info" Console messages.
+//
+// HEADS UP: This detects ANY material property that uses the common Material Properties naming schemes that may or may not contribute to the bug: _Color, _BaseColor, _MainColor, _Tint.
 // 
 // Hopefully this script will be useless when VRChat actually prioritizes fixing this bug. But it's here anyways just in case.
 

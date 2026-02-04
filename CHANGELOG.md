@@ -1,3 +1,6 @@
+# v0.1.4
+- Fixed Workflow Dispatch to exclude .git directories.
+
 # v0.1.2
 - Find Alpha Animating Clips: Scans the project to find animation clips that is causing this VRChat bug: https://feedback.vrchat.com/avatar-30/p/fallback-shader-type-hidden-becomes-visible-when-animated-material-alpha-changes
 
