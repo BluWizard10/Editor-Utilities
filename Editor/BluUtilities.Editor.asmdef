@@ -1,7 +1,9 @@
 {
     "name": "BluUtilities.Editor",
     "rootNamespace": "BluUtilities",
-    "references": [],
+    "references": [
+        "GUID:20f11baefc80dd14fa04bb4a6356c567"
+    ],
     "includePlatforms": [
         "Editor"
     ],
